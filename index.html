@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<head>
+    <title>มหาวิทยาลัยแม่โจ้ | Maejo University</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
+    <style>
+        body .container {
+            max-width: 960px;
+        }
+
+        /*
+   * Custom translucent site header
+   */
+        .site-header {
+            background-color: rgba(185, 57, 57, 0.85);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+        }
+
+        .site-header a {
+            color: #2b6439;
+            transition: color .15s ease-in-out;
+        }
+
+        .site-header a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+        .product-device {
+            position: absolute;
+            right: 10%;
+            bottom: -30%;
+            width: 300px;
+            height: 540px;
+            background-color: #333;
+            border-radius: 21px;
+            transform: rotate(30deg);
+        }
+
+        .product-device::before {
+            position: absolute;
+            top: 10%;
+            right: 10px;
+            bottom: 10%;
+            left: 10px;
+            content: "";
+            background-color: rgba(255, 255, 255, .1);
+            border-radius: 5px;
+        }
+
+        .product-device-2 {
+            top: -25%;
+            right: auto;
+            bottom: 0;
+            left: 5%;
+            background-color: #a01818;
+        }
+    </style>
+    <!-- font -->
+</head>
+
+<body>
+    <div class="row"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light " style="background-color: #3b3f3c;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html"><img
+                     src="https://lms2.mju.ac.th/pluginfile.php/1/theme_academi/logo/1578150367/Logo_25590629105301_513998.png"
+                     alt="" width="150"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="col-md-1"></div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="index.html">หน้าแรก | </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="aboutMaejo.html">เกี่ยวกับมหาวิทยาลัย | </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="agencyMaejo.html">หน่วยงาน | </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="http://www.education.mju.ac.th/www/">การศึกษา | </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="research.html">วิจัยและบริการวิชาการ | </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="aroundMaejo.html">รอบรั้วมหาลัย</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidebar -->
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <div class="container text-center border-bottom">
+        <a class="text-success" href="aboutMaejo.html">เกี่ยวกับมหาวิทยาลัย </a>
+        <td>&nbsp;</td>
+        <a class="text-success" href="agencyMaejo.html">หน่วยงาน </a>
+        <td>&nbsp;</td>
+        <a class="text-success" href="http://www.education.mju.ac.th/www/">การศึกษา </a>
+        <td>&nbsp;</td>
+        <a class="text-success" href="research.html">วิจัยและบริการวิชาการ </a>
+        <td>&nbsp;</td>
+        <a class="text-success" href="aroundMaejo.html">รอบรั้วมหาลัย</a>
+        <td>&nbsp;</td>
+    </div>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <!-- Carousel -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://erp.mju.ac.th/picture/banner/3b5203c073d04657b8b98b8e4d609182.jpg"
+                         class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://erp.mju.ac.th/picture/banner/f6f28e86530945b198166086e692757d.jpg"
+                         class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://erp.mju.ac.th/picture/banner/aa878d2fe1a84cbeaf7233b405d18f27.jpg"
+                         class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <!-- Description -->
+        <div class="container">
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <p class="font-weight-light text-center"> มหาวิทยาลัยแม่โจ้ 63 หมู่ 4 ต.หนองหาร อ.สันทราย จ.เชียงใหม่
+                50290</p>
+            <p class="font-weight-light text-center"> โทรศัพท์ : 053 873000 โทรสาร : 053 873015 maejo@mju.ac.th</p>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container">
+        <footer class="pt-4  pt-md-5 border-top"></footer>
+        <div class="row">
+            <div class="col-6 col-md">
+                <h5>หน้าหลัก</h5>
+                <ul class="list-unstyled text-small">
+                    <li>
+                        <a class="link-secondary" href="aboutMaejo.html">เกี่ยวกับมหาวิทยาลัย</a>
+                    </li>
+                    <li>
+                        <a class="link-secondary" href="agencyMaejo.html">หน่วยงาน</a>
+                    </li>
+                    <li>
+                        <a class="link-secondary" href="research.html">วิจัยและบริการวิชาการ</a>
+                    </li>
+                    <li>
+                        <a class="link-secondary" href="aroundMaejo.html">รอบรั้วมหาวิทยาลัย</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>ข่าว</h5>
+                <ul class="list-unstyled text-small">
+                    <li>
+                        <a class="link-secondary" href="#"> ข่าวกิจกรรม</a>
+                    </li>
+                    <li>
+                        <a class="link-secondary" href="#">ข่าวประกาศทั่วไป</a>
+                    </li>
+                    <li>
+                        <a class="link-secondary" href="#">ข่าวรับสมัครงาน</a>
+                    </li>
+                    <li>
+                        <a class="link-secondary" href="#">ข่าวประกวดราคา</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>วิทยาเขต</h5>
+                <ul class="list-unstyled text-small">
+                    <li>
+                        <a class="link-secondary" href="#">มหาวิทยาลัยแม่โจ้ - แพร่เฉลิมพระเกียรติ</a>
+                    </li>
+                    <li>
+                        <a class="link-secondary" href="#">มหาวิทยาลัยแม่โจ้ - ชุมพร</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>สื่อออนไลน์</h5>
+                <ul class="list-unstyled text-small">
+                    <li>
+                        <a class="link-secondary" href="#">MJU CHANNEL</a>
+                    </li>
+                    <li>
+                        <a class="link-secondary" href="#">MJU Radio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+</html>
